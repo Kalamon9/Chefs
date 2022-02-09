@@ -7848,7 +7848,7 @@ h1, .h1, h2, .h2 {
   transform: scale(1.3); }
 
 .nl-color {
-  color: #eb2f64; }
+  color: #E2245D; }
 
 .nl-color:hover {
   color: #BA265D;
@@ -7879,7 +7879,11 @@ footer {
   padding: 1rem 2.7rem;
   display: inline-block;
   transition: all 0.2s;
-  position: relative; }
+  position: relative;
+  background-color: #E2245D;
+  border: 1px solid #E2245D;
+  color: #fff;
+  font-size: 1.3rem; }
   .btn-submit:hover {
     transform: translateY(-0.3rem);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
