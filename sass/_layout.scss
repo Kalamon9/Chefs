@@ -1,0 +1,56 @@
+
+// Nav
+.navbar-toggler {
+  color: $color-grey-dark-1;
+  border: 1px solid $color-grey-dark-1;
+  position: relative;
+}
+
+.navbar-toggler i {
+  color: $color-grey-dark-2;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); // perfect positioninng with absolute
+  width: 90%;
+  text-align: center;
+}
+
+
+.brand-color {
+ color: $color-grey-dark-2;
+ transition: all .2s;
+}
+.brand-color:hover {
+ color: #005580;
+ transform: scale(1.3);
+}
+
+.nl-color {
+ color: $color-red-1;
+
+}
+
+.nl-color:hover {
+ color: $color-red-2;
+ border-bottom: 2px solid $color-red-2;
+
+}
+
+
+// Footer
+
+footer {
+  background-color: $color-grey-dark-2;
+
+  .footer-header-shadow{
+    text-shadow: 0 1rem 4rem rgba(0, 204, 204, .3);
+  }
+
+  .footer-link{
+    transition: all .2s;
+  }
+  .footer-link:hover{
+     transform: scale(1.1);
+  }
+}

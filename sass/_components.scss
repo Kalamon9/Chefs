@@ -1,0 +1,33 @@
+
+.img-pancake {
+  width: 27rem;
+  height: auto;
+ }
+
+.img-small-card{
+  max-width: 20rem;
+  height: auto;
+}
+.img-large-card{
+  max-width: 30rem;
+  height: auto;
+}
+
+.btn-submit {
+  padding: 1rem 2.7rem;
+  display: inline-block;
+  transition: all 0.2s;
+  position: relative;
+
+
+  &:hover {
+    transform: translateY(-.3rem);
+    box-shadow: 0 1rem 2rem rgba(0,0,0, .2);
+      }
+  &:active,
+  &:focus {
+    transform: translateY(-.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0, .4);
+  }
+
+}

@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Chefs</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="images/chef.ico">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="bg-white">
+  <!--           NAVBAR           -->
+
+      <nav class="navbar navbar-expand-lg fixed-top bg-light border-bottom border-dark fw-bold">
+
+      <div class="container-lg">
+
+        <a class="navbar-brand fs-2 fw-bolder brand-color" href="#">Chefs</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <i class="bi bi-list"></i>
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link nl-color" href="#">What We Do</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nl-color" href="#recipes">Our Recipes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nl-color" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nl-color" href="#recipes">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nl-color" href="#contact">Events</a>
+            </li>
+          </ul>
+
+          <form class="d-flex ">
+            <input class="form-control me-2 d-none d-md-inline" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark d-none d-md-inline" type="submit"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+  <main>
+
+    <!-- Recipe section -->
+    <section class="my-5">
+      <div class="container-fluid">
+        <!-- Intro recipe -->
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-4">
+            <h1 class="mt-4 text-center text-md-start">
+              <div class="display-2">Ricotta Pancakes</div>
+              <div class="display-5 text-muted">with Mixed Berry Compote</div>
+            </h1>
+          </div>
+
+          <div class="col-md-5 text-center pt-4">
+            <img class="img-fluid rounded img-pancake sh-light my-5" src="images/pancake1.jpg" alt="Pancakes image">
+          </div>
+        </div>
+      </div>
+
+      <!-- Main recipe -->
+      <div class="container-fluid my-5">
+        <div class="row justify-content-center align-items-start py-3">
+          <div class="col-md-4 px-5 pb-4">
+            <div class="card">
+              <div class="card-header fw-bold">
+                Ingredients:
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">250g mascarpone</li>
+                <li class="list-group-item">250g ricotta</li>
+                <li class="list-group-item">150g plain flour</li>
+                <li class="list-group-item">1 tsp baking powder</li>
+                <li class="list-group-item">185ml buttermilk</li>
+                <li class="list-group-item">4 medium eggs</li>
+                <li class="list-group-item">50g butter</li>
+                <li class="list-group-item">70g caster sugar</li>
+                <li class="list-group-item">2 tsp vanilla bean paste</li>
+                <li class="list-group-item">400g fresh berries</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 px-3">
+            <h4 class="pb-3 fw-normal">Method:</h4>
+            <h6>Step 1</h6>
+            <p>Bring all the compote ingredients to the boil in a pan and simmer for 3-4 minutes until the fruit softens.</p>
+
+            <h6>Step 2</h6>
+            <p>Lightly mix vanilla bean paste and mascarpone. Do not over mix as it may curdle.</p>
+
+            <h6>Step 3</h6>
+            <p>Sift the flour, baking powder, sugar and a pinch of salt into a bowl. In a separate bowl, mix the buttermilk, egg yolks and butter, then pour into the flour mixture and whisk until smooth.
+            </p>
+
+            <h6>Step 4</h6>
+            <p>Fold in the ricotta until just combined. Whisk the egg whites in a bowl until they form stiff peaks; gently fold in the batter.</p>
+
+            <h6>Step 5</h6>
+            <p>Grease a pan with butter, drop 2 tbsp batter in to make a pancake. Keep the cooked pancakes warm, repeat until the batter is all used. Serve with the mascarpone and compote.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Table section -->
+    <div class="container my-5">
+      <div class="row justify-content-center pb-5">
+        <div class="col-md-8 ">
+
+
+          <h2 class="text-center py-3 fw-normal">Nutrition Facts</h2>
+          <table class="table table-hover caption-top">
+            <caption>Calories 631</caption>
+            <thead class="table-primary">
+              <tr>
+                <th scope="col">Amount per Serving</th>
+                <th scope="col">% Daily Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Fat <span class="fw-light">51g</span></th>
+                <td>78%</td>
+              </tr>
+              <tr>
+                <th scope="row">Sugar <span class="fw-light">151g</span></th>
+                <td>93%</td>
+              </tr>
+              <tr>
+                <th scope="row">Protein <span class="fw-light">14g</span></th>
+                <td>8%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Carousel with cards section -->
+    <section id="recipes">
+      <div class="container-fluid bg-primary py-5">
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <!-- 3 cards -->
+              <div class="row justify-content-center align-items-center px-5">
+                <div class="col-md-3 d-none d-md-inline">
+                  <div class="card border-info shadow">
+                    <img src="images/cauliflower.jpg" class="card-img-top" alt="Cauliflower recipe image">
+                    <div class="card-body">
+                      <h5 class="card-title">Harissa Cauliflower</h5>
+                      <p class="card-text">This makes a hearty and satisfying side dish, perfect served with Sunday lunch.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-8">
+                  <div class="card border-info shadow">
+                    <img src="images/aubergine.jpg" class="card-img-top" alt="Aubergines recipe image">
+                    <div class="card-body">
+                      <h5 class="card-title">Roasted Aubergines with Butterbeans</h5>
+                      <p class="card-text">We can all agree that aubergine or eggplant is a versatile ingredient, even if we can’t quite decide what to call it.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-info">
+                      <small class="text-muted">Serves: 6</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 d-none d-md-inline">
+                  <div class="card border-info shadow">
+                    <img src="images/orange-cake.jpg" class="card-img-top" alt="Clementine cake image">
+                    <div class="card-body">
+                      <h5 class="card-title">Clementine Cake</h5>
+                      <p class="card-text">Make the most of fresh seasonal clementines in this simple yet delicious almond cake.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+         <!-- Second carousel item -->
+            </div>
+            <div class="carousel-item">
+              <!-- 3 cards -->
+              <div class="row justify-content-center align-items-center px-5">
+                <div class="col-md-3 d-none d-md-inline">
+                  <div class="card border-info shadow">
+                    <img src="images/cauliflower.jpg" class="card-img-top" alt="Cauliflower recipe image">
+                    <div class="card-body">
+                      <h5 class="card-title">Harissa Cauliflower</h5>
+                      <p class="card-text">This makes a hearty and satisfying side dish, perfect served with Sunday lunch.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-8">
+                  <div class="card border-info shadow">
+                    <img src="images/sandwich.jpg" class="card-img-top" alt="Sandwich recipe image">
+                    <div class="card-body">
+                      <h5 class="card-title">Best Dad's Sandwich</h5>
+                      <p class="card-text">Take off your spurs and head over to the campfire to prepare this cowboy bean and potato waffle pie.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-info">
+                      <small class="text-muted">Serves: 2</small>
+                    </div>
+                  </div>
+                </div>
+                <<div class="col-md-3 d-none d-md-inline">
+                  <div class="card border-info shadow">
+                    <img src="images/orange-cake.jpg" class="card-img-top" alt="Clementine cake image">
+                    <div class="card-body">
+                      <h5 class="card-title">Clementine Cake</h5>
+                      <p class="card-text">Make the most of fresh seasonal clementines in this simple yet delicious almond cake.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- Third carousel item -->
+            <div class="carousel-item">
+              <!-- 3 cards -->
+              <div class="row justify-content-center align-items-center px-5">
+                <div class="col-md-3 d-none d-md-inline">
+                  <div class="card border-info shadow">
+                    <img src="images/cauliflower.jpg" class="card-img-top" alt="Cauliflower recipe image">
+                    <div class="card-body">
+                      <h5 class="card-title">Harissa Cauliflower</h5>
+                      <p class="card-text">This makes a hearty and satisfying side dish, perfect served with Sunday lunch.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-8">
+                  <div class="card border-info shadow">
+                    <img src="images/clafoutis.jpg" class="card-img-top" alt="Apricot Clafoutis recipe image">
+                    <div class="card-body">
+                      <h5 class="card-title">Apricot Clafoutis</h5>
+                      <p class="card-text">A true summer treat, this French-inspired dessert is best enjoyed with vanilla ice cream.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-info">
+                      <small class="text-muted">Serves: 4</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 d-none d-md-inline">
+                  <div class="card border-info shadow">
+                    <img src="images/orange-cake.jpg" class="card-img-top" alt="Clementine cake image">
+                    <div class="card-body">
+                      <h5 class="card-title">Clementine Cake</h5>
+                      <p class="card-text">Make the most of fresh seasonal clementines in this simple yet delicious almond cake.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- Contact section -->
+    <section id="contact" class="py-5">
+      <div class="container-md px-5">
+        <div class="text-center pt-3">
+          <h2 class="py-3 fw-normal">Get in Touch</h2>
+          <p class="lead">Questions to ask? Fill out the forms</p>
+        </div>
+
+        <div class="row my-5 justify-content-center">
+          <div class="col-lg-6">
+            <form>
+              <label for="email" class="form-label">Your Email:</label>
+              <div class="input-group mb-4">
+                <span class="input-group-text">@</span>
+                <input id="email" type="email" class="form-control" placeholder="e.g. mario@example.com" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+
+              <label for="subject" class="form-label">What is your question about?</label>
+              <div class="input-group mb-4">
+                <span class="input-group-text"><i class="bi bi-question-circle"></i></span>
+                <select id="subject" class="form-select" aria-label="Default select example">
+                  <option value="Recipes">Recipes query</option>
+                  <option value="Events">Events query</option>
+                  <option value="Other">Other query</option>
+                </select>
+              </div>
+
+              <div class="form-floating mt-5 mb-4">
+                <textarea class="form-control" placeholder="Leave a comment here" id="guery" style="height: 140px"></textarea>
+                <label for="query">Comments</label>
+              </div>
+
+              <div class="mb-4 text-center pt-3">
+                <button class="btn btn-primary btn-submit text-white sh-dark" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </main>
+
+
+                    <!-- Footer -->
+  <div class="container-flex">
+    <footer class="py-3 mt-4">
+      <h1 class="text-center text-info fw-bold pt-4 footer-header-shadow">Chefs</h1>
+      <ul class="nav justify-content-center border-bottom py-4 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 link-info footer-link">What We Do</a></li>
+        <li class="nav-item"><a href="#recipes" class="nav-link px-2 link-info footer-link">Our Recipes</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link px-2 link-info footer-link">Contact Us</a></li>
+        <li class="nav-item"><a href="#recipes" class="nav-link px-2 link-info footer-link">Blog</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link px-2 link-info footer-link">Events</a></li>
+      </ul>
+      <p class="text-center text-info">© 2021 Chefs</p>
+    </footer>
+  </div>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- JS -->
+  <script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>

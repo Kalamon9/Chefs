@@ -1,0 +1,28 @@
+
+$color-red-1: #eb2f64;    //color primary
+$color-red-2: #BA265D;
+$color-grey-dark-1: #666;
+$color-grey-dark-2: #444;
+$color-grey-dark-3: #333;
+
+
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.sh-light {
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, .06);
+}
+.sh-dark {
+  box-shadow: 0 2rem 6rem rgba(0,0,0, .3);
+}
+
+ h1,h2 {
+   color: $color-grey-dark-3;
+ }
